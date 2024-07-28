@@ -9,7 +9,7 @@ import chatRoute from './routes/chat.route.js'
 import messageRoute from './routes/message.route.js'
 
 const psserver=express()
-psserver.use(cors({origin:"https://primespace-app.vercel.app",credentials:true}))
+psserver.use(cors({origin:"https://primespace-a3x4k31ky-alans-projects-675217dc.vercel.app",credentials:true}))
 psserver.use(express.json())
 psserver.use(cookieParser())
 psserver.use("/api/auth",authRoute)
